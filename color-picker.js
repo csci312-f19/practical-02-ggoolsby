@@ -87,7 +87,6 @@ const createColorPicker = function createColorPicker(initialValue, callback) { /
     const {red, green, blue} = currentColor;
     colorBox.style.background = `rgb(${red}, ${green}, ${blue})`;
     callback(currentColor);
-
   };
 
   Object.keys(currentColor).forEach((color) => {
